@@ -5,15 +5,15 @@
 name: planting-grass
 
 # A. 8~11 라인 주석 처리
-on:
-  push:
-    branches:
-      - unknown
+# on:
+#   push:
+#     branches:
+#       - unknown
 
 # B. 14~16 라인 주석 해제
-# on:
-#   schedule:
-#     - cron: '0 0 * * *'
+on:
+  schedule:
+    - cron: '0 0 * * *'
 
 jobs:
   task:
